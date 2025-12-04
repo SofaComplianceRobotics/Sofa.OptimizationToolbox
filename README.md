@@ -23,7 +23,8 @@ Only the `lenght` and the `radius` of the beam are optimized.
 <img src="./images/beam.png" alt="Cantilever Beam" width="45%"/>
 <img src="./images/beam_solution.png" alt="Cantilever Beam" width="45%"/>
 </div>
-<figcaption style="text-align: center;">Cantilever beam before (left) and after (right) optimization.</figcaption>
+
+__Cantilever beam before (left) and after (right) optimization__
 
 In the file `sofascene.py`, you will find the definition of the SOFA scene that simulates the cantilever beam under gravity.
 In the file `params.py` you will find the definition of the parameters to optimize, and the definition of the target.
