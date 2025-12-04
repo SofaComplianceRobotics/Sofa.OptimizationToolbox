@@ -32,6 +32,7 @@ In the same script, at the end, the results are analyzed to find the best design
 The best design parameters found after optimization with brute force are:
 - `length`: 180 mm
 - `radius`: 4 mm
+  
 With a score (distance to target) of 1.103 mm.
 
 These parameters lead to a tip position of the beam that is close to the target position: 30 mm in the y direction.
