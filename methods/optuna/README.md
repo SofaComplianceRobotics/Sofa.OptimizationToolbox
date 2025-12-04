@@ -29,6 +29,7 @@ $ python methods/optuna/optimize.py yourObjective.py
 The parameters found after optimization with Optuna are:
 - `length`: 166.5 mm
 - `radius`: 3.5 mm
+  
 With a score (distance to target) of 0.009 mm.
 
 These parameters lead to a tip position of the beam that is very close to the target position: 30 mm in the y direction.
