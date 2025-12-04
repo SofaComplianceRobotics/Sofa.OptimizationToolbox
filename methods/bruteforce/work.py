@@ -3,8 +3,9 @@ import os
 import csv
 from launcher import *  
 
-
 dirpath = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(dirpath, "../../"))
+import params
 
 # File to launch                 
 filenames = ["_sofascene.py"]
@@ -33,7 +34,7 @@ for res in results:
     with open(os.path.join(res["directory"],"output.csv"), 'r') as csvfile:
         lines = csvfile.readlines()
         y_position = float(lines[2].strip().split(';')[1])  # y position of the beam tip
-        score = abs(y_position + 30.0)  # Assuming target is - 30.0
+        score = abs(y_position - params.target)  # distance to target
         if score < best_score:
             best_score = score
             best_params = [float(lines[0].strip().split(';')[1]), 

@@ -2,7 +2,7 @@
 
 The Sofa.OptimizationToolbox is a collection of tools used to perform design optimization based on simulation with SOFA.
 
-## Requirements
+## Requirements to launch the simulation
 
 SOFA with SofaPython3 and BeamAdapter plugins installed.
 
@@ -17,7 +17,7 @@ In this repository, you can find an example of design optimization.
 The objective is to find the dimensions of a cantilever beam that result in a tip position 
 as close as possible to a target position, while the beam is subject to gravity.
 The mass density and Young's modulus of the beam material are fixed.
-Only the `lenght` and the `radius` of the beam are optimized.
+Only the `length` and the `radius` of the beam are optimized.
 
 <div style="display: flex; justify-content: space-around;">
 <img src="./images/beam.png" alt="Cantilever Beam" width="45%"/>
