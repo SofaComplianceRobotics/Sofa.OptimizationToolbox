@@ -16,6 +16,8 @@ PATH=$PATH:$SOFA_ROOT/bin/
 PYTHONPATH=$PYTHONPATH:$SOFA_ROOT/lib/python3/site-packages/
 ```
 
+## How to
+
 Define your objective (see for example _example/beamObjective.py_) and run:
 
 ```bash
@@ -27,6 +29,7 @@ $ python methods/optuna/optimize.py yourObjective.py
 The parameters found after optimization with Optuna are:
 - `length`: 166.5 mm
 - `radius`: 3.5 mm
+With a score (distance to target) of 0.009 mm.
 
 These parameters lead to a tip position of the beam that is very close to the target position: 30 mm in the y direction.
 
