@@ -34,7 +34,9 @@ These parameters lead to a tip position of the beam that is very close to the ta
 <img src="../../images/beam.png" alt="Cantilever Beam" width="45%"/>
 <img src="../../images/beam_solution.png" alt="Cantilever Beam" width="45%"/>
 </div>
-<figcaption style="text-align: center;">Cantilever beam before (left) and after (right) optimization.</figcaption>
+
+__Cantilever beam before (left) and after (right) optimization.__
 
 <img src="../../images/optuna_plot.png" alt="Optuna Study Results" width="100%"/>
-<figcaption style="text-align: center;">Optuna study results showing the evolution of the objective function over trials.</figcaption>
+
+__Optuna study results showing the evolution of the objective function over trials.__
